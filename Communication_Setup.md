@@ -148,7 +148,7 @@ Below is a high-level representation of the communication setup:
 - **SAP CPI**: Middleware that routes and transforms messages.
 - **External Tax Engine**: Receives requests, processes tax calculations, and returns responses.
 
-![Block Diagram](images\block_diagram.png)  
+![Block Diagram](images/block_diagram.png)  
 
 ---
 
