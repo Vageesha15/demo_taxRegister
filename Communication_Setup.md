@@ -141,12 +141,8 @@ To allow outbound communication to an SAP S/4HANA tenant, a **communication arra
 
 Below is a high-level representation of the communication setup:
 
-+-------------------+        +-------------------+          +---------------------+ 
-| SAP S/4HANA Cloud| --->    | SAP Cloud Platform| --->     | External Tax Engine | 
-| (Communication   |         |                   |          |                     |
-|  Arrangement)    |         | Integration (CPI) |          | (Vertex/Avalara)    |
-|                  |         |  Middleware       |          |                     |
-+-------------------+        +-------------------+          +---------------------+ 
+![High level representation](images/highlevelflow.png) 
+
 
 - **SAP S/4HANA Cloud**: Sends outbound requests via communication arrangement.
 - **SAP CPI**: Middleware that routes and transforms messages.
