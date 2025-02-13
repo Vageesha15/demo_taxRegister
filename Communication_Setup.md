@@ -47,7 +47,7 @@ Iflows can be easily [designed](https://developers.sap.com/tutorials/cp-starter-
 For the **External Tax Engine**, there is a [generic](https://api.sap.com/integrationflow/Request_Tax_Calculation_for_Single_Engine) SAP-delivered Iflow in place, which can be reused for any country.
 
 ### Generic IFlow Diagram  
-![Generic IFlow](images\genericIflow.png)  
+![Generic IFlow](demo_taxResister\images\genericIflow.png)  
 
 ### Authentication Methods:
 1. **Direct communication** between partners and SAP supports **OAuth2.0** as an authentication method, defined in the **Outbound Service** linked to **Communication Scenario SAP_COM_0249**.
