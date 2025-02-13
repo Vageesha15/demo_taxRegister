@@ -86,11 +86,11 @@ These are managed through **communication arrangements** within SAP.
 A **communication scenario** bundles inbound and outbound communication design-time artifacts. Since it enables communication between systems, each **communication arrangement** must be based on a **communication scenario**. For all standard APIs, SAP S/4HANA provides predefined communication scenarios. 
 
 ### Typical Communication Scenario Diagram  
-![Communication Scenario](images\communication_scenario\image1.png) 
+![Communication Scenario](images/communication_scenario/image1.png) 
 
-![Communication Scenario](images\communication_scenario\image2.png) 
+![Communication Scenario](images/communication_scenario/image2.png) 
 
-![Communications Scenario3](images\communication_scenario\image.png)
+![Communications Scenario3](images/communication_scenario/image.png)
 
 
 ---
@@ -109,10 +109,10 @@ A **communication scenario** bundles inbound and outbound communication design-t
 8. In **Users for Outbound Communication**, click **Add** to create a new communication user.
 
 ### Communication System Configuration Screenshot  
-![Communication System](images\Communication_system\image2.png)
-![Communication System](images\Communication_system\image1.png)
-![Communication System](images\Communication_system\image3.png)
-![Communication System](images\Communication_system\image4.png)    
+![Communication System](images/Communication_system/image2.png)
+![Communication System](images/Communication_system/image1.png)
+![Communication System](images/Communication_system/image3.png)
+![Communication System](images/Communication_system/image4.png)    
 
 
 ---
@@ -132,8 +132,8 @@ To allow outbound communication to an SAP S/4HANA tenant, a **communication arra
 8. Save changes and ensure the arrangement is **Active**.
 
 ### Communication Arrangement Screenshot  
-![Communication Arrangement](images\communication_arrangement\image1.png)  
-![Communication Arrangement](images\communication_arrangement\image2.png) 
+![Communication Arrangement](images/communication_arrangement/image1.png)  
+![Communication Arrangement](images/communication_arrangement/image2.png) 
 
 ---
 
@@ -160,7 +160,7 @@ Below is a high-level representation of the communication setup:
 
 Brazil **reused the generic IFLOW** of the **External Tax Engine**. It exposes its own services specific to Brazil.
 
-![Brazil IFlow](images\genericIflow.png)  
+![Brazil IFlow](images/genericIflow.png)  
 
 ### Brazil IFlow Overview
 
