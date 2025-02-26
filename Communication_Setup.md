@@ -26,12 +26,18 @@ Communication arrangement for External Tax Engine
    - [Brazil Iflow Ovreview](#brazil-iflow-overview)  
    - [Communication Scenarios used by Brazil](#communication-scenarios-used-by-brazil)  
    - [Communication Arrangement used by Brazil](#communication-arrangement-used-by-brazil)  
+
+2. [Scope](#Scope)
    
-2. [Building Blocks of Communication](#building-blocks-of-communication)  
+3. [Building Blocks of Communication](#building-blocks-of-communication)  
    - [Class Diagram](#class-diagram)
    - [Sequence Diagram](#sequence-diagram) 
 
-3. [Conclusion](#conclusion)
+4. [Testability](#testability) 
+  - [IFLOW](#iflow)
+  - [Testing Details](#testing-details)
+
+5. [Conclusion](#conclusion)
 
 ---
 
@@ -95,15 +101,48 @@ Refer to [Setting up Cloud Integration with external Tax engine](https://api.sap
 
 ---
 
+## Scope
+B3D, 1J5, 43D
+
+---
+
 ## Building blocks of communication
 
 ### Class Diagram
 
-![Class Diagram](images/class_diagram/classDiagram.png) 
+#### Communication Deployment
+![Class Diagram](images/class_diagram/CA_DEPLOYMENT.png) 
 
+#### Communication Consumption
+![Class Diagram](images/class_diagram/CA_CONSUMPTION.png) 
+
+---
 ### Sequence Diagram
 
-![Sequence Diagram](images/sequence_diagram/ca_creation.png)
+#### Communication Deployment
+![Sequence Diagram](images/sequence_diagram/CA_Creation.png)
+
+#### Communication Consumption
+![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio.png)
+
+---
+
+## Testability
+
+### Iflow
+
+Package: Z_EXTERNAL_TAX_CALCULATION
+Artifact: ZExternalTaxEngine
+
+### Testing details:
+System	C50(Tax Register)
+Report name	ZCOMM_SCENARIO_TEST
+Outbound Service	ZTAXREG_DTI_REST
+Communication Scenario	ZTAXREG_COMMSCENARIO
+Communication System	ZIFLOWSYS
+Communication Arrangement	ZexternalIflow
+
+---
 
 ## Conclusion
 
