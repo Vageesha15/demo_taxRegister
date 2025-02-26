@@ -120,7 +120,7 @@ B3D, 1J5, 43D
 ### Sequence Diagram
 
 #### Communication Deployment
-![Sequence Diagram](images/sequence_diagram/ca_Creation.png)
+![Sequence Diagram](images/sequence_diagram/ca_creation.png)
 
 #### Communication Consumption
 ![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio.png)
