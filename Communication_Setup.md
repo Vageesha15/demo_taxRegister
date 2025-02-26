@@ -99,7 +99,7 @@ Refer to [Setting up Cloud Integration with external Tax engine](link-placeholde
 
 ### Class Diagram
 
-![Class Diagram](images/class_diagram/classDiagram.png) 
+![Class Diagram](images/class_diagram/classDiagram2.png) 
 
 ### Sequence Diagram
 
