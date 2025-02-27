@@ -148,3 +148,5 @@ Communication Arrangement	ZexternalIflow
 
 We can reuse the existing brazil communication scenario which is using the iflow as we did not find any localized code for the communication
 arrangement in the identified classes.
+### Direct Communication can be done through communication arrangement of the partner system.
+### Multiple partners can communicate via CPI using the communication arrangement delivered by SAP.
