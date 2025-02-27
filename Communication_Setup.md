@@ -123,7 +123,7 @@ B3D, 1J5, 43D
 ![Sequence Diagram](images/sequence_diagram/CA_Creation.png)
 
 #### Communication Consumption
-![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio (1).png)
+![Sequence Diagram](images/sequence_diagram/CA_Consumption.png)
 
 ---
 
