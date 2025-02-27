@@ -121,9 +121,8 @@ B3D, 1J5, 43D
 
 #### Communication Deployment
 ![Sequence Diagram](images/sequence_diagram/CA_Creation.png)
-
 #### Communication Consumption
-![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio.png)
+![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio (1).png)
 
 ---
 
