@@ -97,7 +97,7 @@ SAP S/4HANA sends requests to SAP **Cloud Integration (CPI)**, which acts as mid
 
 
 ### Reference Document  
-Refer to [Setting up Cloud Integration with external Tax engine](link-placeholder) for detailed configuration steps.
+Refer to [Setting up Cloud Integration with external Tax engine](https://api.sap.com/odata/1.0/catalog.svc/Files('107589c0f80a4d479b54c56458b249f0')/$value) for detailed configuration steps.
 
 ---
 
@@ -121,6 +121,7 @@ B3D, 1J5, 43D
 
 #### Communication Deployment
 ![Sequence Diagram](images/sequence_diagram/CA_Creation.png)
+
 #### Communication Consumption
 ![Sequence Diagram](images/sequence_diagram/Consumption_Ca.drawio (1).png)
 
@@ -145,5 +146,7 @@ Communication Arrangement	ZexternalIflow
 
 ## Conclusion
 
-We can reuse the existing brazil communication scenario which is using the iflow as we did not find any localized code for the communication
+- We can reuse the existing brazil communication scenario which is using the iflow as we did not find any localized code for the communication
 arrangement in the identified classes.
+- Direct Communication can be done through communication arrangement of the partner system.
+- Multiple partners can communicate via CPI using the communication arrangement delivered by SAP.
